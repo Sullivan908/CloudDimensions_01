@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>short_description</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 20:27:10</sys_created_on>
+        <sys_id>f98b2baf2f78301017ae54492799b6bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f98b2baf2f78301017ae54492799b6bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 20:27:10</sys_updated_on>
+        <table>x_370714_marketing_campaign_tasks</table>
+        <ui_policy display_value="The Priority, Assigned To, Short Description and Description fields should not be editable if the State Closed Incomplete or Closed Complete">f76a6f2f2f78301017ae54492799b67b</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

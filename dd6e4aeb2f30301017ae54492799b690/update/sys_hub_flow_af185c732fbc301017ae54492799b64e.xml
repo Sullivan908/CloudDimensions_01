@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-quebec-12-09-2020__patch1-02-18-2021</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>To save the marketing managers some time, when a new campaign is created and moves to
+Work in Progress, there are 3 tasks that can be auto created to save time
+- Create campaign design copy
+- Create distribution schedule
+- Register Campaign Budget with Finance</description>
+        <internal_name>create_campaign_tasks</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.sys_id","label":"Trigger➛Campaigns Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_370714_marketing_campaigns","column_name":"sys_id"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Campaigns Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_370714_marketing_campaigns","column_name":"number"},{"name":"53c66f0e-ff71-4b6a-971b-84db79dff7ae.Table","label":"4➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53c66f0e-ff71-4b6a-971b-84db79dff7ae.Record","label":"4➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"436478ca-1a90-4257-a0dd-18e4067e46cd.record","label":"1➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"436478ca-1a90-4257-a0dd-18e4067e46cd.table_name","label":"1➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cf287e4-b533-4614-ba10-4b3970b17269.Record","label":"2➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cf287e4-b533-4614-ba10-4b3970b17269.Table","label":"2➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9096f15f-da1c-4cab-b6ea-830bf29f1bed.Record","label":"1➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9096f15f-da1c-4cab-b6ea-830bf29f1bed.Table","label":"1➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d42afa9-c777-4a02-a6ef-02091689f7ba.Record","label":"3➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d42afa9-c777-4a02-a6ef-02091689f7ba.Table","label":"3➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Campaigns Record","reference":"x_370714_marketing_campaigns","reference_display":"Campaigns","type":"reference","base_type":"reference","attributes":{}},{"name":"9096f15f-da1c-4cab-b6ea-830bf29f1bed.Record.campaign","label":"1➛Campaign Tasks Record➛Campaign","reference":"x_370714_marketing_campaigns","reference_display":"Campaigns","type":"reference","base_type":"reference","parent_table_name":"x_370714_marketing_campaign_tasks","column_name":"campaign"},{"name":"0537af02-2da3-4218-986d-6b0825b8c342.record","label":"4➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0537af02-2da3-4218-986d-6b0825b8c342.table_name","label":"4➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>9fc008842f85301017ae54492799b628</latest_snapshot>
+        <master_snapshot>223a94772fbc301017ae54492799b6bc</master_snapshot>
+        <name>Create Campaign Tasks</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>ec9040842f85301017ae54492799b602</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:41:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>af185c732fbc301017ae54492799b64e</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>Create Campaign Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_hub_flow_af185c732fbc301017ae54492799b64e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:38:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=af185c732fbc301017ae54492799b64e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=af185c732fbc301017ae54492799b64e"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_370714_marketing_campaigns">stageCHANGESTOwork_in_progress<item display_value="Work in Progress" endquery="false" field="stage" goto="false" newquery="false" operator="CHANGESTO" or="false" value="work_in_progress"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>true</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 16:37:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec9040842f85301017ae54492799b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:12</sys_updated_on>
+        <table>x_370714_marketing_campaigns</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"e89040842f85301017ae54492799b603","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>af185c732fbc301017ae54492799b64e</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 16:37:12</sys_created_on>
+        <sys_id>e89040842f85301017ae54492799b603</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:38:47</sys_updated_on>
+        <trigger display_value="">ec9040842f85301017ae54492799b602</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLSwqAMAwA0btk7Ql6FZGgNP2AJJCmVBHvbhFBwe085gCtjGGVhpnBQRClqFLZw3BTS8RYCymuuRi4cfr0QmaZY/8WsfQ7Xp55f1QYaTNiT75300pwXnM9pFGFAAAA</data>
+        <document_id>e89040842f85301017ae54492799b603</document_id>
+        <field>trigger_runner</field>
+        <length>140</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 16:37:12</sys_created_on>
+        <sys_id>609040842f85301017ae54492799b604</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=af185c732fbc301017ae54492799b64e^sys_idNOT INe89040842f85301017ae54492799b603"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=af185c732fbc301017ae54492799b64e^sys_idNOT INbedc5c7b2fbc301017ae54492799b6d0"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Campaign Tasks">af185c732fbc301017ae54492799b64e</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:02:18</sys_created_on>
+        <sys_id>bedc5c7b2fbc301017ae54492799b6d0</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:13</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bedc5c7b2fbc301017ae54492799b6d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bedc5c7b2fbc301017ae54492799b6d0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 01:57:46</sys_created_on>
+        <sys_id>164770772f70701017ae54492799b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:57:46</sys_updated_on>
+        <value>true</value>
+        <variable display_value="Run On Extended Tables">1c4203b6072200103bf10705afd300b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bedc5c7b2fbc301017ae54492799b6d0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 01:00:08</sys_created_on>
+        <sys_id>421aacff2ffc301017ae54492799b6da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:00:08</sys_updated_on>
+        <value>foreground</value>
+        <variable display_value="Run flow In">231e76460f103300b599bca2ff767e11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bedc5c7b2fbc301017ae54492799b6d0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:34:06</sys_created_on>
+        <sys_id>b82460b72ffc301017ae54492799b678</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 02:01:28</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bedc5c7b2fbc301017ae54492799b6d0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:02:18</sys_created_on>
+        <sys_id>f6dc5c7b2fbc301017ae54492799b6d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 00:02:18</sys_updated_on>
+        <value>x_370714_marketing_campaigns</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>bedc5c7b2fbc301017ae54492799b6d0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:02:18</sys_created_on>
+        <sys_id>fedc5c7b2fbc301017ae54492799b6d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 00:02:18</sys_updated_on>
+        <value>stageCHANGESTOwork_in_progress</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=af185c732fbc301017ae54492799b64e^sys_idNOT INab185c732fbc301017ae54492799b651"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>af185c732fbc301017ae54492799b64e</id>
+        <name>Create Campaign Tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:41:35</sys_created_on>
+        <sys_id>ab185c732fbc301017ae54492799b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:41:35</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=af185c732fbc301017ae54492799b64e^sys_idNOT IN352a14772fbc301017ae54492799b604,752ad0772fbc301017ae54492799b6fe,7d2ad0772fbc301017ae54492799b6f4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Campaign Tasks">af185c732fbc301017ae54492799b64e</model>
+        <model_id>af185c732fbc301017ae54492799b64e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_af185c732fbc301017ae54492799b64e</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:29</sys_created_on>
+        <sys_id>352a14772fbc301017ae54492799b604</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDfb800084ea85301094f48be6993c6614,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create Campaign Tasks">af185c732fbc301017ae54492799b64e</model>
+        <model_id>af185c732fbc301017ae54492799b64e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_af185c732fbc301017ae54492799b64e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:29</sys_created_on>
+        <sys_id>752ad0772fbc301017ae54492799b6fe</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Campaign Tasks">af185c732fbc301017ae54492799b64e</model>
+        <model_id>af185c732fbc301017ae54492799b64e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_af185c732fbc301017ae54492799b64e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:29</sys_created_on>
+        <sys_id>7d2ad0772fbc301017ae54492799b6f4</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=af185c732fbc301017ae54492799b64e^sys_idNOT IN0e2a14772fbc301017ae54492799b61a,0e2a14772fbc301017ae54492799b620,8a2a14772fbc301017ae54492799b612"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Campaign Tasks">af185c732fbc301017ae54492799b64e</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>0e2a14772fbc301017ae54492799b61a</sys_id>
+        <sys_mod_count>90</sys_mod_count>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:38:12</sys_updated_on>
+        <ui_id>7cf287e4-b533-4614-ba10-4b3970b17269</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0e2a14772fbc301017ae54492799b61a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0e2a14772fbc301017ae54492799b61a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>0a2a14772fbc301017ae54492799b61c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:28</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0e2a14772fbc301017ae54492799b61a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>462a14772fbc301017ae54492799b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:30</sys_updated_on>
+        <value>x_370714_marketing_campaign_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0e2a14772fbc301017ae54492799b61a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>0e2a14772fbc301017ae54492799b61a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>c22a14772fbc301017ae54492799b61c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>campaign={{Created or Updated_1.current.sys_id}}^short_description=Create distribution schedule</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>0e2a14772fbc301017ae54492799b61a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>022a14772fbc301017ae54492799b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0e2a14772fbc301017ae54492799b61a^sys_idNOT INca2a14772fbc301017ae54492799b61b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>field_values</input_name>
+        <instance>0e2a14772fbc301017ae54492799b61a</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"campaign":{"scriptActive":false,"script":"var campaign \u003d fd_data.trigger.current.number;\nreturn campaign;\n","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>ca2a14772fbc301017ae54492799b61b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:28</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Campaign Tasks">af185c732fbc301017ae54492799b64e</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>0e2a14772fbc301017ae54492799b620</sys_id>
+        <sys_mod_count>90</sys_mod_count>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:38:12</sys_updated_on>
+        <ui_id>0d42afa9-c777-4a02-a6ef-02091689f7ba</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0e2a14772fbc301017ae54492799b620"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0e2a14772fbc301017ae54492799b620</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>0a2a14772fbc301017ae54492799b622</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:28</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0e2a14772fbc301017ae54492799b620</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>462a14772fbc301017ae54492799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:30</sys_updated_on>
+        <value>x_370714_marketing_campaign_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0e2a14772fbc301017ae54492799b620"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>0e2a14772fbc301017ae54492799b620</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>c22a14772fbc301017ae54492799b622</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>campaign={{Created or Updated_1.current.sys_id}}^short_description=Register Campaign Budget with Finance</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>0e2a14772fbc301017ae54492799b620</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>022a14772fbc301017ae54492799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0e2a14772fbc301017ae54492799b620^sys_idNOT INca2a14772fbc301017ae54492799b621"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>field_values</input_name>
+        <instance>0e2a14772fbc301017ae54492799b620</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"campaign":{"scriptActive":false,"script":"var campaign \u003d fd_data.trigger.current.number;\nreturn campaign;\n","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>ca2a14772fbc301017ae54492799b621</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:28</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Campaign Tasks">af185c732fbc301017ae54492799b64e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>8a2a14772fbc301017ae54492799b612</sys_id>
+        <sys_mod_count>90</sys_mod_count>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:38:12</sys_updated_on>
+        <ui_id>9096f15f-da1c-4cab-b6ea-830bf29f1bed</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8a2a14772fbc301017ae54492799b612"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a2a14772fbc301017ae54492799b612</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:34:07</sys_created_on>
+        <sys_id>782460b72ffc301017ae54492799b67c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 00:42:07</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a2a14772fbc301017ae54492799b612</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>862a14772fbc301017ae54492799b616</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:28</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8a2a14772fbc301017ae54492799b612</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>c22a14772fbc301017ae54492799b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:30</sys_updated_on>
+        <value>x_370714_marketing_campaign_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8a2a14772fbc301017ae54492799b612"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>8a2a14772fbc301017ae54492799b612</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>422a14772fbc301017ae54492799b616</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:36:53</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>campaign={{Created or Updated_1.current.sys_id}}^short_description=Create campaign design copy</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>8a2a14772fbc301017ae54492799b612</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>0a2a14772fbc301017ae54492799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>8a2a14772fbc301017ae54492799b612</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:34:07</sys_created_on>
+        <sys_id>f02460b72ffc301017ae54492799b67c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 00:34:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8a2a14772fbc301017ae54492799b612^sys_idNOT INc62a14772fbc301017ae54492799b614"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>field_values</input_name>
+        <instance>8a2a14772fbc301017ae54492799b612</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":false,"script":"var campaign \u003d fd_data.trigger.current.campaign;\nreturn campaign;\n","savedValue":"Create campaign design copy"},"campaign":{"scriptActive":false,"script":"var campaign \u003d fd_data.trigger.current.number;\nreturn campaign;","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>c62a14772fbc301017ae54492799b614</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:28</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_af185c732fbc301017ae54492799b64e^sys_idNOT IN392ad0772fbc301017ae54492799b6fc,7d2a14772fbc301017ae54492799b602,f52a14772fbc301017ae54492799b608"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_af185c732fbc301017ae54492799b64e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:29</sys_created_on>
+        <sys_id>392ad0772fbc301017ae54492799b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_af185c732fbc301017ae54492799b64e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:29</sys_created_on>
+        <sys_id>7d2a14772fbc301017ae54492799b602</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:29</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_af185c732fbc301017ae54492799b64e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:30</sys_created_on>
+        <sys_id>f52a14772fbc301017ae54492799b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=af185c732fbc301017ae54492799b64e^sys_idNOT IN9b3ad4772fbc301017ae54492799b66a"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"9b3ad4772fbc301017ae54492799b66a","name":"plan"}}</plan>
+        <plan_id>af185c732fbc301017ae54492799b64e</plan_id>
+        <snapshot>9fc008842f85301017ae54492799b628</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b3ad4772fbc301017ae54492799b66a</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:12</sys_updated_on>
+        <trigger display_value="">ec9040842f85301017ae54492799b602</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>To save the marketing managers some time, when a new campaign is created and moves to
+Work in Progress, there are 3 tasks that can be auto created to save time
+- Create campaign design copy
+- Create distribution schedule
+- Register Campaign Budget with Finance</description>
+        <internal_name>create_campaign_tasks</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.sys_id","label":"Trigger➛Campaigns Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_370714_marketing_campaigns","column_name":"sys_id"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Campaigns Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_370714_marketing_campaigns","column_name":"number"},{"name":"53c66f0e-ff71-4b6a-971b-84db79dff7ae.Table","label":"4➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"53c66f0e-ff71-4b6a-971b-84db79dff7ae.Record","label":"4➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"436478ca-1a90-4257-a0dd-18e4067e46cd.record","label":"1➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"436478ca-1a90-4257-a0dd-18e4067e46cd.table_name","label":"1➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cf287e4-b533-4614-ba10-4b3970b17269.Record","label":"2➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cf287e4-b533-4614-ba10-4b3970b17269.Table","label":"2➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9096f15f-da1c-4cab-b6ea-830bf29f1bed.Record","label":"1➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9096f15f-da1c-4cab-b6ea-830bf29f1bed.Table","label":"1➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d42afa9-c777-4a02-a6ef-02091689f7ba.Record","label":"3➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0d42afa9-c777-4a02-a6ef-02091689f7ba.Table","label":"3➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Campaigns Record","reference":"x_370714_marketing_campaigns","reference_display":"Campaigns","type":"reference","base_type":"reference","attributes":{}},{"name":"9096f15f-da1c-4cab-b6ea-830bf29f1bed.Record.campaign","label":"1➛Campaign Tasks Record➛Campaign","reference":"x_370714_marketing_campaigns","reference_display":"Campaigns","type":"reference","base_type":"reference","parent_table_name":"x_370714_marketing_campaign_tasks","column_name":"campaign"},{"name":"0537af02-2da3-4218-986d-6b0825b8c342.record","label":"4➛Campaign Tasks Record","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0537af02-2da3-4218-986d-6b0825b8c342.table_name","label":"4➛Campaign Tasks Table","reference":"x_370714_marketing_campaign_tasks","reference_display":"Campaign Tasks","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Create Campaign Tasks</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Campaign Tasks">af185c732fbc301017ae54492799b64e</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>223a94772fbc301017ae54492799b6bc</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:10</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=223a94772fbc301017ae54492799b6bc"/>
+    <sys_variable_value action="delete_multiple" query="document_key=223a94772fbc301017ae54492799b6bc"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=223a94772fbc301017ae54492799b6bc^sys_idNOT IN3a3ad4772fbc301017ae54492799b61c"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Campaign Tasks">223a94772fbc301017ae54492799b6bc</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>3a3ad4772fbc301017ae54492799b61c</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:13</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a3ad4772fbc301017ae54492799b61c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a3ad4772fbc301017ae54492799b61c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>323ad4772fbc301017ae54492799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:50</sys_updated_on>
+        <value>x_370714_marketing_campaigns</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a3ad4772fbc301017ae54492799b61c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 01:00:22</sys_created_on>
+        <sys_id>512a60332f30701017ae54492799b6d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:00:22</sys_updated_on>
+        <value>foreground</value>
+        <variable display_value="Run flow In">231e76460f103300b599bca2ff767e11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a3ad4772fbc301017ae54492799b61c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:10:56</sys_created_on>
+        <sys_id>51de507f2fbc301017ae54492799b66f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 00:10:56</sys_updated_on>
+        <value>stageCHANGESTOwork_in_progress</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a3ad4772fbc301017ae54492799b61c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:10:56</sys_created_on>
+        <sys_id>59de507f2fbc301017ae54492799b66f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 00:10:56</sys_updated_on>
+        <value>x_370714_marketing_campaigns</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a3ad4772fbc301017ae54492799b61c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 01:57:57</sys_created_on>
+        <sys_id>7457f0772f70701017ae54492799b680</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:57:57</sys_updated_on>
+        <value>true</value>
+        <variable display_value="Run On Extended Tables">1c4203b6072200103bf10705afd300b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a3ad4772fbc301017ae54492799b61c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>7e3ad4772fbc301017ae54492799b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:50</sys_updated_on>
+        <value>stageCHANGESTOwork_in_progress</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>3a3ad4772fbc301017ae54492799b61c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:39:14</sys_created_on>
+        <sys_id>ff45a03b2ffc301017ae54492799b608</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 02:01:41</sys_updated_on>
+        <value>every</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=223a94772fbc301017ae54492799b6bc^sys_idNOT INe23a94772fbc301017ae54492799b6bd"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>223a94772fbc301017ae54492799b6bc</id>
+        <name>Create Campaign Tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:48</sys_created_on>
+        <sys_id>e23a94772fbc301017ae54492799b6bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:48</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=223a94772fbc301017ae54492799b6bc^sys_idNOT IN223a94772fbc301017ae54492799b6ef,6a3a94772fbc301017ae54492799b6c0,6a3a94772fbc301017ae54492799b6e4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Campaign Tasks">223a94772fbc301017ae54492799b6bc</model>
+        <model_id>223a94772fbc301017ae54492799b6bc</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_223a94772fbc301017ae54492799b6bc</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:49</sys_created_on>
+        <sys_id>223a94772fbc301017ae54492799b6ef</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Campaign Tasks">223a94772fbc301017ae54492799b6bc</model>
+        <model_id>223a94772fbc301017ae54492799b6bc</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_223a94772fbc301017ae54492799b6bc</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:49</sys_created_on>
+        <sys_id>6a3a94772fbc301017ae54492799b6c0</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDfb800084ea85301094f48be6993c6614,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Create Campaign Tasks">223a94772fbc301017ae54492799b6bc</model>
+        <model_id>223a94772fbc301017ae54492799b6bc</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_223a94772fbc301017ae54492799b6bc</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:49</sys_created_on>
+        <sys_id>6a3a94772fbc301017ae54492799b6e4</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=223a94772fbc301017ae54492799b6bc^sys_idNOT IN363ad4772fbc301017ae54492799b60e,3a3ad4772fbc301017ae54492799b61a,b63ad4772fbc301017ae54492799b614"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Campaign Tasks">223a94772fbc301017ae54492799b6bc</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>363ad4772fbc301017ae54492799b60e</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:10</sys_updated_on>
+        <ui_id>9096f15f-da1c-4cab-b6ea-830bf29f1bed</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=363ad4772fbc301017ae54492799b60e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>363ad4772fbc301017ae54492799b60e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>323ad4772fbc301017ae54492799b610</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:42</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>363ad4772fbc301017ae54492799b60e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>7e3ad4772fbc301017ae54492799b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:50</sys_updated_on>
+        <value>x_370714_marketing_campaign_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>363ad4772fbc301017ae54492799b60e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:39:14</sys_created_on>
+        <sys_id>ff45a03b2ffc301017ae54492799b60c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 00:42:18</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Wait">ff3a6335531003003bf1d9109ec58777</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=363ad4772fbc301017ae54492799b60e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>363ad4772fbc301017ae54492799b60e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>fa3ad4772fbc301017ae54492799b60f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>campaign={{Created or Updated_1.current.sys_id}}^short_description=Create campaign design copy</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>363ad4772fbc301017ae54492799b60e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>3a3ad4772fbc301017ae54492799b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>363ad4772fbc301017ae54492799b60e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 00:39:14</sys_created_on>
+        <sys_id>f745a03b2ffc301017ae54492799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 00:39:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=363ad4772fbc301017ae54492799b60e^sys_idNOT INf23ad4772fbc301017ae54492799b60f"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>field_values</input_name>
+        <instance>363ad4772fbc301017ae54492799b60e</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"short_description":{"scriptActive":false,"script":"var campaign \u003d fd_data.trigger.current.campaign;\nreturn campaign;\n","savedValue":"Create campaign design copy"},"campaign":{"scriptActive":false,"script":"var campaign \u003d fd_data.trigger.current.number;\nreturn campaign;","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>f23ad4772fbc301017ae54492799b60f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:42</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Campaign Tasks">223a94772fbc301017ae54492799b6bc</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>3a3ad4772fbc301017ae54492799b61a</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:10</sys_updated_on>
+        <ui_id>0d42afa9-c777-4a02-a6ef-02091689f7ba</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3a3ad4772fbc301017ae54492799b61a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a3ad4772fbc301017ae54492799b61a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>363ad4772fbc301017ae54492799b61c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:42</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3a3ad4772fbc301017ae54492799b61a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>723ad4772fbc301017ae54492799b61c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:50</sys_updated_on>
+        <value>x_370714_marketing_campaign_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3a3ad4772fbc301017ae54492799b61a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>3a3ad4772fbc301017ae54492799b61a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>fe3ad4772fbc301017ae54492799b61b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>campaign={{Created or Updated_1.current.sys_id}}^short_description=Register Campaign Budget with Finance</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>3a3ad4772fbc301017ae54492799b61a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>3e3ad4772fbc301017ae54492799b61b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3a3ad4772fbc301017ae54492799b61a^sys_idNOT INf63ad4772fbc301017ae54492799b61b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>field_values</input_name>
+        <instance>3a3ad4772fbc301017ae54492799b61a</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"campaign":{"scriptActive":false,"script":"var campaign \u003d fd_data.trigger.current.number;\nreturn campaign;\n","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>f63ad4772fbc301017ae54492799b61b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:42</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Campaign Tasks">223a94772fbc301017ae54492799b6bc</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>b63ad4772fbc301017ae54492799b614</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:10</sys_updated_on>
+        <ui_id>7cf287e4-b533-4614-ba10-4b3970b17269</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b63ad4772fbc301017ae54492799b614"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b63ad4772fbc301017ae54492799b614</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>b23ad4772fbc301017ae54492799b616</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:42</sys_updated_on>
+        <value/>
+        <variable display_value="Field Values">273a6335531003003bf1d9109ec5876b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b63ad4772fbc301017ae54492799b614</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>fe3ad4772fbc301017ae54492799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:50</sys_updated_on>
+        <value>x_370714_marketing_campaign_tasks</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b63ad4772fbc301017ae54492799b614"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>b63ad4772fbc301017ae54492799b614</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>7e3ad4772fbc301017ae54492799b615</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 16:37:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>campaign={{Created or Updated_1.current.sys_id}}^short_description=Create distribution schedule</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>b63ad4772fbc301017ae54492799b614</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>ba3ad4772fbc301017ae54492799b615</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:50</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b63ad4772fbc301017ae54492799b614^sys_idNOT IN763ad4772fbc301017ae54492799b615"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>field_values</input_name>
+        <instance>b63ad4772fbc301017ae54492799b614</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"campaign":{"scriptActive":false,"script":"var campaign \u003d fd_data.trigger.current.number;\nreturn campaign;\n","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:50</sys_created_on>
+        <sys_id>763ad4772fbc301017ae54492799b615</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-24 01:03:42</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_223a94772fbc301017ae54492799b6bc^sys_idNOT IN2a3a94772fbc301017ae54492799b6e0,7a3ad4772fbc301017ae54492799b601,ee3a94772fbc301017ae54492799b6ea"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_223a94772fbc301017ae54492799b6bc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:49</sys_created_on>
+        <sys_id>2a3a94772fbc301017ae54492799b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_223a94772fbc301017ae54492799b6bc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:49</sys_created_on>
+        <sys_id>7a3ad4772fbc301017ae54492799b601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_223a94772fbc301017ae54492799b6bc</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 23:50:49</sys_created_on>
+        <sys_id>ee3a94772fbc301017ae54492799b6ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 23:50:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

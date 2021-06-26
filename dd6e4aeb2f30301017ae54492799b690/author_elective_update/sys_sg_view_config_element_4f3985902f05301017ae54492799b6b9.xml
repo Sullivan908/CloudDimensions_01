@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>text_icon_01_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 16:33:09</sys_created_on>
+        <sys_id>4f3985902f05301017ae54492799b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_icon_01_element</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_4f3985902f05301017ae54492799b6b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 16:33:09</sys_updated_on>
+        <view_config display_value="CD Active Campaigns View Config">1a1db49c2f81301017ae54492799b6b9</view_config>
+        <view_template_slot display_value="text_icon_01">94e07bd30f202010e70a4abec4767e10</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</application>
+        <file_path/>
+        <instance_id>1f8cefa2db9fd7c08264f70fbf96191d</instance_id>
+        <instance_name>dev65591</instance_name>
+        <name>sys_sg_view_config_element_4f3985902f05301017ae54492799b6b9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>text_icon_01_element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-25 16:33:09</sys_created_on><sys_id>4f3985902f05301017ae54492799b6b9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>text_icon_01_element</sys_name><sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package><sys_policy/><sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope><sys_update_name>sys_sg_view_config_element_4f3985902f05301017ae54492799b6b9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-25 16:33:09</sys_updated_on><view_config display_value="CD Active Campaigns View Config">1a1db49c2f81301017ae54492799b6b9</view_config><view_template_slot display_value="text_icon_01">94e07bd30f202010e70a4abec4767e10</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>1575905508</payload_hash>
+        <record_name>text_icon_01_element</record_name>
+        <reverted_from/>
+        <source>d16e4aeb2f30301017ae54492799b693</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 16:33:09</sys_created_on>
+        <sys_id>433985902f05301017ae54492799b6bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a440499600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 16:33:09</sys_updated_on>
+        <type>View Config Element</type>
+        <update_guid>8b39859028053010dbc9118d1bdabbbb</update_guid>
+        <update_guid_history>8b39859028053010dbc9118d1bdabbbb:1575905508</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 16:36:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>2e31b606d39345ac8883add0c1ec48e4</sys_id>
+        <sys_metadata>4f3985902f05301017ae54492799b6b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_icon_01_element</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_scope_delete display_value="">1ca6939965354410a87e8357ad9ca4b9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_4f3985902f05301017ae54492799b6b9</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_4f3985902f05301017ae54492799b6b9">433985902f05301017ae54492799b6bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 16:36:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

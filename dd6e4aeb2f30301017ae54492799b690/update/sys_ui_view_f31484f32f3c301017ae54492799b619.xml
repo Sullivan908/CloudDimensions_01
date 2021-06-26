@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Campaigns_w_Tasks</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-23 22:14:14</sys_created_on>
+        <sys_id>f31484f32f3c301017ae54492799b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Campaigns w Tasks</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_ui_view_f31484f32f3c301017ae54492799b619</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-23 22:14:14</sys_updated_on>
+        <title>Campaigns w Tasks</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

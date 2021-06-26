@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="DELETE">
+        <name>Campaign Tasks Copy Embedded Form View Config Element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 14:43:32</sys_created_on>
+        <sys_id>552070982f41301017ae54492799b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Campaign Tasks Copy Embedded Form View Config Element</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_552070982f41301017ae54492799b676</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 14:43:32</sys_updated_on>
+        <view_config display_value="Campaign Tasks Copy Embedded Form View Config">912070982f41301017ae54492799b674</view_config>
+        <view_template_slot display_value="text_07">e87845b041275010f877183fc9b8be13</view_template_slot>
+    </sys_sg_view_config_element>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</application>
+        <file_path/>
+        <instance_id>1f8cefa2db9fd7c08264f70fbf96191d</instance_id>
+        <instance_name>dev65591</instance_name>
+        <name>sys_sg_view_config_element_552070982f41301017ae54492799b676</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element"><sys_sg_view_config_element action="INSERT_OR_UPDATE"><name>Campaign Tasks Copy Embedded Form View Config Element</name><sys_class_name>sys_sg_view_config_element</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-25 14:43:32</sys_created_on><sys_id>552070982f41301017ae54492799b676</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Campaign Tasks Copy Embedded Form View Config Element</sys_name><sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package><sys_policy/><sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope><sys_update_name>sys_sg_view_config_element_552070982f41301017ae54492799b676</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-25 14:43:32</sys_updated_on><view_config display_value="Campaign Tasks Copy Embedded Form View Config">912070982f41301017ae54492799b674</view_config><view_template_slot display_value="text_07">e87845b041275010f877183fc9b8be13</view_template_slot></sys_sg_view_config_element></record_update>]]></payload>
+        <payload_hash>2093384999</payload_hash>
+        <record_name>Campaign Tasks Copy Embedded Form View Config Element</record_name>
+        <reverted_from/>
+        <source>d16e4aeb2f30301017ae54492799b693</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 14:43:32</sys_created_on>
+        <sys_id>d12070982f41301017ae54492799b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a43a03d520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 14:43:32</sys_updated_on>
+        <type>View Config Element</type>
+        <update_guid>5d207098bd413010292817f0778b5877</update_guid>
+        <update_guid_history>5d207098bd413010292817f0778b5877:2093384999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 14:43:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_view_config_element">sys_sg_view_config_element</sys_db_object>
+        <sys_id>0057d6ad8ff144a8800221c8a8a41444</sys_id>
+        <sys_metadata>552070982f41301017ae54492799b676</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Campaign Tasks Copy Embedded Form View Config Element</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_scope_delete display_value="">1ca6939965354410a87e8357ad9ca4b9</sys_scope_delete>
+        <sys_update_name>sys_sg_view_config_element_552070982f41301017ae54492799b676</sys_update_name>
+        <sys_update_version display_value="sys_sg_view_config_element_552070982f41301017ae54492799b676">d12070982f41301017ae54492799b678</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 14:43:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

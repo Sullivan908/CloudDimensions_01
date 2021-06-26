@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="CD Active Campaigns Item Stream">289ee4d42f41301017ae54492799b6c6</item_stream>
+        <segment display_value="Item Stream Segment">899ee4d42f41301017ae54492799b6ed</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 14:36:42</sys_created_on>
+        <sys_id>499ee4d42f41301017ae54492799b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_499ee4d42f41301017ae54492799b6f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 14:36:42</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

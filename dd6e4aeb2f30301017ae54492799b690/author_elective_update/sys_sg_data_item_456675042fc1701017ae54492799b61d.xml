@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>All Active Campaigns</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Active Campaigns data</name>
+        <query_condition table="x_370714_marketing_campaigns">stage=active<item display_value="Active" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="active"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 01:11:57</sys_created_on>
+        <sys_id>456675042fc1701017ae54492799b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Campaigns data</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_sg_data_item_456675042fc1701017ae54492799b61d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 01:11:57</sys_updated_on>
+        <table>x_370714_marketing_campaigns</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=456675042fc1701017ae54492799b61d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</application>
+        <file_path/>
+        <instance_id>1f8cefa2db9fd7c08264f70fbf96191d</instance_id>
+        <instance_name>dev65591</instance_name>
+        <name>sys_sg_data_item_456675042fc1701017ae54492799b61d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>All Active Campaigns</description><group_by/><instance_relative_url_qc/><name>Active Campaigns data</name><query_condition table="x_370714_marketing_campaigns">stage=active<item display_value="Active" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="active"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-25 01:11:57</sys_created_on><sys_id>456675042fc1701017ae54492799b61d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Campaigns data</sys_name><sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package><sys_policy/><sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope><sys_update_name>sys_sg_data_item_456675042fc1701017ae54492799b61d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-25 01:11:57</sys_updated_on><table>x_370714_marketing_campaigns</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=456675042fc1701017ae54492799b61d"/></record_update>]]></payload>
+        <payload_hash>-2001198801</payload_hash>
+        <record_name>Active Campaigns data</record_name>
+        <reverted_from/>
+        <source>d16e4aeb2f30301017ae54492799b693</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 01:11:57</sys_created_on>
+        <sys_id>8d66bd082fc1701017ae54492799b663</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17a40b9370d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 01:11:57</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>c566bd0898c17010c5cb57b200174b63</update_guid>
+        <update_guid_history>c566bd0898c17010c5cb57b200174b63:-2001198801</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 01:42:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>37369c76f2c2418e9a5ec8279ae8cd64</sys_id>
+        <sys_metadata>456675042fc1701017ae54492799b61d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Campaigns data</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_scope_delete display_value="">1ca6939965354410a87e8357ad9ca4b9</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_456675042fc1701017ae54492799b61d</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_456675042fc1701017ae54492799b61d">8d66bd082fc1701017ae54492799b663</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 01:42:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

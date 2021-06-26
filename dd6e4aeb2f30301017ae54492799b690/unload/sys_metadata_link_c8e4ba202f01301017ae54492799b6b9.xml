@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>64d99c882f09301017ae54492799b618</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_370714_marketing_campaigns">
+    <x_370714_marketing_campaigns action="INSERT_OR_UPDATE">
+        <campaign_description>Target CD followers with free training seminars</campaign_description>
+        <campaign_manager display_value="Abel Tuter">62826bf03710200044e0bfc8bcbe5df1</campaign_manager>
+        <campaign_name>Facebook - training notification</campaign_name>
+        <end_date>2021-07-01</end_date>
+        <number>CAMP0000018</number>
+        <stage>active</stage>
+        <start_date>2021-06-01</start_date>
+        <sys_class_name>x_370714_marketing_campaigns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 18:31:26</sys_created_on>
+        <sys_id>64d99c882f09301017ae54492799b618</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 03:09:29</sys_updated_on>
+    </x_370714_marketing_campaigns>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-26 19:01:56</sys_created_on>
+        <sys_id>c8e4ba202f01301017ae54492799b6b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAMP0000018</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_metadata_link_c8e4ba202f01301017ae54492799b6b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-26 19:01:56</sys_updated_on>
+        <tablename>x_370714_marketing_campaigns</tablename>
+    </sys_metadata_link>
+</record_update>

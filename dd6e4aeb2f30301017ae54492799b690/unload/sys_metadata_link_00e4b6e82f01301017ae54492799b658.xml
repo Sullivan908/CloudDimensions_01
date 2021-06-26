@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>unload</directory>
+        <documentkey>805a300c2fc9301017ae54492799b6aa</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_370714_marketing_campaigns">
+    <x_370714_marketing_campaigns action="INSERT_OR_UPDATE">
+        <campaign_description>run commercial w/ Santa Claus optomizing Christmas using CD solutions</campaign_description>
+        <campaign_manager display_value="Chandan Singh">2f45bd9453391300ba3dddeeff7b1262</campaign_manager>
+        <campaign_name>Sanata Claus Commercial</campaign_name>
+        <end_date>2021-01-15</end_date>
+        <number>CAMP0000020</number>
+        <stage>work_in_progress</stage>
+        <start_date>2020-11-15</start_date>
+        <sys_class_name>x_370714_marketing_campaigns</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-24 20:51:02</sys_created_on>
+        <sys_id>805a300c2fc9301017ae54492799b6aa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 03:08:27</sys_updated_on>
+    </x_370714_marketing_campaigns>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-26 19:01:56</sys_created_on>
+        <sys_id>00e4b6e82f01301017ae54492799b658</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAMP0000020</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_metadata_link_00e4b6e82f01301017ae54492799b658</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-26 19:01:56</sys_updated_on>
+        <tablename>x_370714_marketing_campaigns</tablename>
+    </sys_metadata_link>
+</record_update>

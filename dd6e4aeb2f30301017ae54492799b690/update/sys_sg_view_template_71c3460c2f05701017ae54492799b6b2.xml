@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_template">
+    <sys_sg_view_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Simple List Template</description>
+        <name>List Template 1</name>
+        <preview_image/>
+        <root_view_attrs_json/>
+        <sys_class_name>sys_sg_view_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-25 02:10:27</sys_created_on>
+        <sys_id>71c3460c2f05701017ae54492799b6b2</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>List Template 1</sys_name>
+        <sys_package display_value="Marketing Campaign Management" source="x_370714_marketing">dd6e4aeb2f30301017ae54492799b690</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Marketing Campaign Management">dd6e4aeb2f30301017ae54492799b690</sys_scope>
+        <sys_update_name>sys_sg_view_template_71c3460c2f05701017ae54492799b6b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-25 02:52:04</sys_updated_on>
+        <template_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Id":"Root","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","BackgroundColor":"#06304E","Id":"viewgroup_03","Children":[{"Type":"Text","TextColor":"#FFFFFF","Font":{"Weight":"regular","Size":18},"MaxLines":1,"TextAlignment":"Center","CellId":"text_09","Id":"text_09"}]},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":8},"MaxLines":1,"CellId":"text_10","Id":"text_10"},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_01","BackgroundColor":"#F6F7F7","Children":[{"Type":"Text","TextColor":"#000000","Font":{"Weight":"regular","Size":18},"MaxLines":1,"CellId":"text_01","Id":"text_01"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_02","Children":[{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_06","Id":"text_06","TextAlignment":"Center","Margin":{"Right":25}},{"Type":"Text","TextColor":"#293E40","Font":{"Weight":"regular","Size":13},"MaxLines":1,"CellId":"text_07","Id":"text_07"}]},{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Auto","Id":"viewgroup_04"}]}</template_json>
+    </sys_sg_view_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=71c3460c2f05701017ae54492799b6b2"/>
+</record_update>
