@@ -11,7 +11,7 @@
         <filter/>
         <hide_filters>false</hide_filters>
         <hide_screen_name>false</hide_screen_name>
-        <icon display_value="icon-Address-Book">1851de6f2f30301017ae54492799b6b2</icon>
+        <icon display_value="icon-Star">1851de6f2f30301017ae54492799b6b2</icon>
         <name>Activity Stream</name>
         <roles_override/>
         <sys_class_name>sys_sg_activity_stream_screen</sys_class_name>
